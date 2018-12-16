@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "924330917119",
+    "firebase_url": "https://bottles-text-rec.firebaseio.com",
+    "project_id": "bottles-text-rec",
+    "storage_bucket": "bottles-text-rec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924330917119:android:024e7f232fac2ff4",
+        "android_client_info": {
+          "package_name": "com.mdhdev.bottles"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "924330917119-5l51ec0cf85i5j739ilb601i66ihfian.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCes8HEt0dT9iC8h9U5x0G51Nf5E1spGGE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
