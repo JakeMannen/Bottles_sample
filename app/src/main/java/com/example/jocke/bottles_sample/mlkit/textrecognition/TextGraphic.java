@@ -42,9 +42,6 @@ public class TextGraphic extends GraphicOverlay.Graphic {
     this.text = text;
 
     rectPaint = new Paint();
-    rectPaint.setColor(TEXT_COLOR);
-    rectPaint.setStyle(Paint.Style.STROKE);
-    rectPaint.setStrokeWidth(STROKE_WIDTH);
 
     textPaint = new Paint();
     textPaint.setColor(TEXT_COLOR);
