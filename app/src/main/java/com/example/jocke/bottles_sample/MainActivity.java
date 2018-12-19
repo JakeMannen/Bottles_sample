@@ -50,6 +50,7 @@ import android.hardware.camera2.CaptureRequest;
 import android.widget.Toast;
 
 import com.example.jocke.bottles_sample.mlkit.cloudtextrecognition.CloudDocumentTextRecognitionProcessor;
+import com.example.jocke.bottles_sample.mlkit.cloudtextrecognition.CloudTextRecognitionProcessor;
 import com.example.jocke.bottles_sample.mlkit.common.GraphicOverlay;
 import com.example.jocke.bottles_sample.mlkit.common.VisionImageProcessor;
 
@@ -150,7 +151,7 @@ public class MainActivity extends AppCompatActivity {
 
         //preview_window = (ImageView) findViewById(R.id.image_preview);
         graphicOverlay = (GraphicOverlay) findViewById(R.id.previewOverlay);
-        imageProcessor = new CloudDocumentTextRecognitionProcessor();
+        imageProcessor = new CloudTextRecognitionProcessor();
 
         textureView = (TextureView) findViewById(R.id.camera_window);
         assert textureView != null;

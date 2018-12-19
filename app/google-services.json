@@ -8,9 +8,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:924330917119:android:024e7f232fac2ff4",
+        "mobilesdk_app_id": "1:924330917119:android:217b8ac89244d19b",
         "android_client_info": {
-          "package_name": "com.mdhdev.bottles"
+          "package_name": "com.example.jocke.bottles_sample"
         }
       },
       "oauth_client": [
